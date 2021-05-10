@@ -50,15 +50,15 @@
 							</div>
 	
 	                 <div class="form-group">
-								<label class="col-md-4 control-label" for="patientName">Patient
+								<label class="col-md-4 control-label" for="gender">Patient
 									Gender</label>
 									<div class="radio-inlin col-md-4">
 								<label class="form-check-label" for="male">
 									<input class="form-check-input" type="radio"
-									name="gender" id="male" value="m"> 	Male </label>
+									name="gender" id="gender" value="m"> 	Male </label>
 								<label class="form-check-label" for="female">
 									<input class="form-check-input" type="radio"
-									name="gender" id="female" checked value="f">Female </label>
+									name="gender" id="gender" checked value="f">Female </label>
 							</div>
 							
 							</div>
@@ -123,6 +123,7 @@
 								<tr>
 									<th>Patient ID</th>
 									<th>Patient Name</th>
+									<th>Patient Age</th>
 									<th>Patient Gender</th>
 									<th>Patient Weight</th>
 									<th>Patient Contact</th>
