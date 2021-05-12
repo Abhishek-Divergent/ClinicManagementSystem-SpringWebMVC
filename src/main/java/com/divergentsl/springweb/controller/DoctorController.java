@@ -43,7 +43,6 @@ public class DoctorController {
 		return "redirect:/AddDoctor";
 
 	}
-
 	@GetMapping("/remove")
 	protected String delete(HttpServletRequest request, HttpServletResponse response) {
 		int deletid = Integer.parseInt(request.getParameter("doctorId"));
